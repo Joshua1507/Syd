@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container {
+    width: 100%;
+    background-color: #F2AA4CFF;
+}
+.container .smart {
+    display: grid;
+    text-align: start;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+    font-size: 15px;
+    height: 250px;
+}
+.smart .room {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+}
+.picture {
+    border-radius: 90%;
+}
+.syd{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 5fr;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    height: 150px;
+}
+.jopay {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 5fr;
+    font-size: 17px;
+    text-align: center;
+    align-items: center;
+    height: 150px;
+}
+hr {
+    border: 2px solid black
+}
+.jubol {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 5fr;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    height: 150px;
+}
+.bornok {
+    display: grid;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+    height: 100px;
+}
